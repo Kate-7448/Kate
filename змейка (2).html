@@ -68,7 +68,7 @@
       if (snake.cells.length > snake.maxCells) {
         snake.cells.pop();
       }
-      context.fillStyle = 'black';
+      context.fillStyle = 'white';
       context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
       context.fillStyle = 'green';
       snake.cells.forEach(function (cell, index) {
